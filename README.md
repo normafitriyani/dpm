@@ -1,6 +1,6 @@
 # dpm - mobile web apps
 
-This repository consists of web apis and mobile apps for dpm. The structure of this repository as follows:
+This repository consists of web apis and mobile apps for dpm. The structure of this repository is as follows:
 
 ```
 .
