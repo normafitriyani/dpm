@@ -1,0 +1,39 @@
+<ion-view title="Diseases prediction app" hide-back-button="true" id="page2" style="background-color:#FFFFFF;">
+  <ion-content padding="true" class="has-header">
+    <form id="diseasesPredictionApp2-form2" class="list">
+      <ion-item class="item-divider" id="diseasesPredictionApp2-list-item-divider2"> Information</ion-item>
+      <div class="item item-body" id="diseasesPredictionApp2-list-item-container2">
+        <div id="diseasesPredictionApp2-markdown4" class="show-list-numbers-and-dots">
+          <ul>
+            <li>ID : {{ data.pid }}</li>
+            <li>Age : {{ data.age }}</li>
+<!--             <li>Height : {{ data.height }} cm</li>
+            <li>Weight : {{ data.weight }} kg</li> -->
+            <li>BMI : {{ data.bmi }} <!-- ({{ result.obes_status }}) --></li>
+            <li>Is obese? : {{ result.obes_YES }}</li>
+            <li>Waist hip ratio : {{ data.whr }}</li>
+          </ul>
+        </div>
+      </div>
+    </form>
+    <form id="diseasesPredictionApp2-form3" class="list">
+      <ion-item class="item-divider" id="diseasesPredictionApp2-list-item-divider3"> Prediction result</ion-item>
+      <div class="item item-body" id="diseasesPredictionApp2-list-item-container3">
+        <div id="diseasesPredictionApp2-markdown5" class="show-list-numbers-and-dots">
+          <ul>
+            <li>Hypertension : {{ result.htn_status }}</li>
+            <li>Diabetes : {{ result.diabetes_status }}</li>
+          </ul>
+        </div>
+      </div>
+    </form>
+    <form id="diseasesPredictionApp2-form4" class="list">
+      <ion-item class="item-divider" id="diseasesPredictionApp2-list-item-divider5"> Suggestion</ion-item>
+      <div class="item item-body" id="diseasesPredictionApp2-list-item-container4">
+        <div id="diseasesPredictionApp2-markdown6" class="show-list-numbers-and-dots">
+          <p ng-bind-html="result.suggestions"></p>
+        </div>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
