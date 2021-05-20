@@ -65,9 +65,3 @@ Successfully loaded model: diabetes.model
 5. Open the web app via web/mobile browser at port `:8080`
 
 Voila!
-
-## Reference
-
-```
-N. L. Fitriyani, M. Syafrudin, G. Alfian and J. Rhee, "Development of Disease Prediction Model Based on Ensemble Learning Approach for Diabetes and Hypertension," in IEEE Access, vol. 7, pp. 144777-144789, 2019, doi: 10.1109/ACCESS.2019.2945129.
-```
